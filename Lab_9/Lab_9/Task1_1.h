@@ -333,47 +333,21 @@ namespace Lab9 {
 		double x_max = 20;
 		double h = 0.1;
 		double x = 0.1;
+
+		if (xmin->Text != "" && xmax->Text != "")
+		{
+			x = Convert::ToDouble(xmin->Text);
+			x_max = Convert::ToDouble(xmax->Text);
+		}
+
 		SolidBrush^ color_Brush = gcnew SolidBrush(Color::FromName(graf_color));
 
-		if (graf == 0)
-		{
 			while (x <= x_max)
 			{
-				y = Math::Log(x);
+				y = draw_graf(x);
 				g->FillEllipse(color_Brush, x * 10 + x0, y * 10 + y0, 3, 3);
 				x += 0.01;
 			}
-		}
-
-		else if (graf == 1)
-		{
-			while (x <= x_max)
-			{
-				y = 2 * Math::Log(x);
-				g->FillEllipse(color_Brush, x * 10 + x0, y * 10 + y0, 3, 3);
-				x += 0.01;
-			}
-		}
-
-		else if (graf == 2)
-		{
-			while (x <= x_max)
-			{
-				y = Math::Log(pow(x, 2));
-				g->FillEllipse(color_Brush, x * 10 + x0, y * 10 + y0, 3, 3);
-				x += 0.01;
-			}
-		}
-
-		else if (graf == 3)
-		{
-			while (x <= x_max)
-			{
-				y = pow(Math::Log(x), 2);
-				g->FillEllipse(color_Brush, x * 10 + x0, y * 10 + y0, 3, 3);
-				x += 0.01;
-			}
-		}
 	}
 
 	private: System::Void Task1_1_Load(System::Object^ sender, System::EventArgs^ e) 
@@ -407,6 +381,18 @@ namespace Lab9 {
 			y2 -= 10;
 		}
 	}
+
+		   double draw_graf(double x)
+		   {
+			   if(graf == 0)
+				   return Math::Log(x);
+			   else if (graf == 1)
+				   return 2 * Math::Log(x);
+			   else if (graf == 2)
+				   return Math::Log(pow(x, 2));
+			   else if (graf == 3)
+				   return pow(Math::Log(x), 2);
+		   }
 
 	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) 
 	{

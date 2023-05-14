@@ -291,7 +291,7 @@ namespace Lab9 {
 		double h = 0.1;
 		double x, y;
 		double t_min = 0;
-		double t_max = 180;
+		double t_max = 360;
 
 		if ((T_min->Text != "" && T_max->Text != "") && (Convert::ToDouble(T_min->Text) >= 0) && (Convert::ToDouble(T_max->Text) <= 360))
 		{
