@@ -1,0 +1,13 @@
+﻿  Main.cpp
+C:\Users\polya\source\repos\Lab_9\Lab_9\Task3.h(181,35): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\polya\source\repos\Lab_9\Lab_9\Task3.h(181,32): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\polya\source\repos\Lab_9\Lab_9\Task1_1.h(343,53): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\polya\source\repos\Lab_9\Lab_9\Task1_1.h(343,40): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\polya\source\repos\Lab_9\Lab_9\Task1_1.h(353,53): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\polya\source\repos\Lab_9\Lab_9\Task1_1.h(353,40): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\polya\source\repos\Lab_9\Lab_9\Task1_1.h(363,53): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\polya\source\repos\Lab_9\Lab_9\Task1_1.h(363,40): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\polya\source\repos\Lab_9\Lab_9\Task1_1.h(373,53): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\polya\source\repos\Lab_9\Lab_9\Task1_1.h(373,40): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  Main.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  Lab_9.vcxproj -> C:\Users\polya\source\repos\Lab_9\x64\Debug\Lab_9.exe
