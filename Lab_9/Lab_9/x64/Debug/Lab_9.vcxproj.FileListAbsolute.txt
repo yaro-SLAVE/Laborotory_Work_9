@@ -1,8 +1,0 @@
-C:\Users\polya\source\repos\Lab_9\Lab_9\x64\Debug\Lab_9.vcxproj.AssemblyReference.cache
-C:\Users\polya\source\repos\Lab_9\Lab_9\x64\Debug\Lab_9.vcxproj.SuggestedBindingRedirects.cache
-C:\Users\polya\source\repos\Lab_9\Lab_9\x64\Debug\Lab9.Task1_1.resources
-C:\Users\polya\source\repos\Lab_9\Lab_9\x64\Debug\Lab_9.vcxproj.GenerateResource.cache
-C:\Users\polya\source\repos\Lab_9\Lab_9\x64\Debug\Lab9.Task1_2.resources
-C:\Users\polya\source\repos\Lab_9\Lab_9\x64\Debug\Lab9.Task2.resources
-C:\Users\polya\source\repos\Lab_9\Lab_9\x64\Debug\Lab9.Task3.resources
-C:\Users\polya\source\repos\Lab_9\Lab_9\x64\Debug\Lab9.Task_4.resources
